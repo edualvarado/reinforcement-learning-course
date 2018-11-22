@@ -10,4 +10,6 @@ In this repository you will find different exercises for Reinforcement Learning,
 - Exercise 00: OpenAI Gym Tutorial
 - Exercise 01: Markov Decision Processes, Markov Properties and Bellman Equation
 - Exercise 02: Dynamic Programming
-- Exercise 03: Monte-Carlo
+- Exercise 03: Model-free Prediction (Monte-Carlo)
+- Exercise 04: Model-free Control (Off-Policy Monte-Carlo) and Q-Learning
+
