@@ -12,4 +12,5 @@ In this repository you will find different exercises for Reinforcement Learning,
 - Exercise 02: Dynamic Programming
 - Exercise 03: Model-free Prediction (Monte-Carlo)
 - Exercise 04: Model-free Control (Off-Policy Monte-Carlo) and Q-Learning
+- Exercise 05: Q-Learning with Function Aproximation
 
