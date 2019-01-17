@@ -6,6 +6,7 @@ from collections import namedtuple
 import itertools
 import pandas as pd
 from PIL import Image
+import time
 
 from mountain_car import MountainCarEnv
 
@@ -262,3 +263,4 @@ if __name__ == "__main__":
       state,_,done,_ = env.step(np.argmax(approx.predict(sess, [state])))
       if done:
         break
+    env.close()
