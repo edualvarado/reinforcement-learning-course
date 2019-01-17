@@ -13,5 +13,8 @@ In this repository you will find different exercises for Reinforcement Learning,
 - Exercise 03: Model-free Prediction (Monte-Carlo)
 - Exercise 04: Model-free Control (Off-Policy Monte-Carlo) and Q-Learning
 - Exercise 05: Q-Learning with Function Aproximation
-- Exercise 06: Advanced Policy Gradient Algorithms
+- Exercise 06: Advanced Policy Gradient Algorithms (REINFORCE)
+- Exercise 07: Advanced Policy Gradient Algorithms (PPO)
+- Exercise 08: UCB1
+- Project: CartPole
 
