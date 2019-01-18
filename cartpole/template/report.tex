@@ -1,0 +1,69 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[textwidth = 16cm]{geometry}
+\usepackage{graphicx}
+\usepackage[x11names]{xcolor}
+\usepackage{array}
+\usepackage{calc}
+\usepackage{hyperref}
+\usepackage{enumerate}
+\usepackage{pdfpages}
+\usepackage{amsmath}
+\usepackage{cleveref}
+\usepackage{svg}
+\usepackage{todonotes}
+\usepackage{color}
+
+\definecolor{ugrey}{RGB}{166,166,166}
+\newlength{\seplinewidth}
+\newlength{\seplinesep}
+\setlength{\seplinewidth}{2pt}
+\setlength{\seplinesep}{2mm}
+\colorlet{sepline}{ugrey}
+\newcommand{\sepline}[1]{%
+  \vbox{%
+    \begingroup
+      \color{sepline}
+      \hrule width#1\textwidth height\seplinewidth
+    \endgroup
+  }
+}
+
+\crefname{section}{task}{tasks}
+\Crefname{section}{Task}{Tasks}
+
+\def\folderno{0\exno}
+\setlength{\parindent}{0pt}
+
+\def\groupdate{Friday, January 18 at 11:00am}
+\def\submissiondate{Friday, February 08 at 11:00am}
+
+\begin{document}
+
+\begin{flushright}
+  \small Group Member 1, Group Member 2(, Group Member 3)\\
+\end{flushright}
+
+\vspace*{0.3cm}
+\begin{center}
+{\large
+\textsc{Reinforcement Learning}\\
+Project Report}
+\end{center}
+\setlength\tabcolsep{1pt}
+\begin{flushleft}
+\begin{tabular}{m{1cm} m{0.1cm}}
+\sepline{0.865} & \vspace*{-1.275cm}\includegraphics[width=2cm]{img/uni3.pdf}
+\end{tabular} \end{flushleft}
+\setlength\tabcolsep{6pt}
+
+{\color{red} Do not change the font size.} Insert your names in the header of
+your report.
+
+\section{Motivation}
+\section{Method}
+\section{Results}
+\section{Discussion}
+\section{Optionally: Future Work}
+
+\end{document}
